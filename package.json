@@ -1,0 +1,21 @@
+{
+  "name": "ambientes-dev-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "npx ts-node src/index.ts",
+    "start:homolog": "node dist/index.js",
+    "start:prod": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
